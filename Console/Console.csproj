@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\F0DeleteTests\F0DeleteTests.csproj" />
+      <ProjectReference Include="..\F0Inserttests\F0Inserttests.csproj" />
+      <ProjectReference Include="..\F0SelectTests\F0SelectTests.csproj" />
+      <ProjectReference Include="..\F0UpdateTest\F0UpdateTest.csproj" />
+      <ProjectReference Include="..\F1DeleteTests\F1DeleteTests.csproj" />
+      <ProjectReference Include="..\F1InsertTests\F1InsertTests.csproj" />
+      <ProjectReference Include="..\F1SelectTests\F1SelectTests.csproj" />
+      <ProjectReference Include="..\F1UpdateTest\F1UpdateTest.csproj" />
+      <ProjectReference Include="..\F2DeleteTests\F2DeleteTests.csproj" />
+      <ProjectReference Include="..\F2InsertTests\F2InsertTests.csproj" />
+      <ProjectReference Include="..\F2SelectTests\F2SelectTests.csproj" />
+      <ProjectReference Include="..\F2UpdateTest\F2UpdateTest.csproj" />
+      <ProjectReference Include="..\F3DeleteTests\F3DeleteTests.csproj" />
+      <ProjectReference Include="..\F3InsertTests\F3InsertTests.csproj" />
+      <ProjectReference Include="..\F3SelectTests\F3SelectTests.csproj" />
+      <ProjectReference Include="..\F3UpdateTest\F3UpdateTest.csproj" />
+      <ProjectReference Include="..\ORM1\ORM.Core\ORM.Core.csproj" />
+      <ProjectReference Include="..\ORM2\ORM.Core\ORM.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Data\Data.csproj" />
+      <ProjectReference Include="..\F3GlobalConfig\F3GlobalConfig.csproj" />
+      <ProjectReference Include="..\ORM3TestEntities\ORM3TestEntities.csproj" />
+      <ProjectReference Include="..\ORM3\OR_Mapper.Framework\OR_Mapper.Framework.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ORM.Postgres.Interfaces\ORM.Postgres.Interfaces.csproj" />
+      <ProjectReference Include="..\ORM.Postgres.Linq\ORM.Postgres.Linq.csproj" />
+    </ItemGroup>
+
+</Project>

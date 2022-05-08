@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ORM.Cache\ORM.Cache.csproj" />
+        <ProjectReference Include="..\ORM.Core\ORM.Core.csproj" />
+        <ProjectReference Include="..\ORM.PostgresSQL\ORM.PostgresSQL.csproj" />
+    </ItemGroup>
+
+</Project>
